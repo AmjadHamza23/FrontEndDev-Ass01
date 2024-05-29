@@ -1,0 +1,87 @@
+/* Custom styles for TechPulse */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.logo img,
+header .navbar-brand img {
+    max-width: 40px;
+    height: auto;
+}
+
+header h1,
+header .navbar-brand h1 {
+    margin: 0 0 0 10px;
+    font-size: 1.5rem;
+}
+
+.jumbotron {
+    background-color: #343a40;
+    color: white;
+    border-radius: 0.3rem;
+}
+
+.jumbotron .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f8f9fa;
+}
+
+.testimonials h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.testimonial img {
+    border: 3px solid #007bff;
+}
+
+.testimonial p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.testimonial h5 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.testimonial p.text-muted {
+    margin-bottom: 0;
+}
+
+/* About Us Page */
+.team-member img {
+    max-width: 150px;
+    height: auto;
+    border: 3px solid #007bff;
+}
+
+.team-member h5 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.team-member p {
+    margin-bottom: 0;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-footer {
+    font-size: 0.875rem;
+}

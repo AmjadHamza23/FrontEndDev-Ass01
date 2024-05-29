@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPulse</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="logo.png" alt="TechPulse Logo" class="mr-2" style="width: 40px; height: 40px;">
+                    <h1 class="h4 mb-0">TechPulse</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Welcome to TechPulse</h1>
+            <p class="lead">Your ultimate source for the latest tech news, reviews, and tutorials.</p>
+            <a href="blog.html" class="btn btn-primary btn-lg">Explore Our Blog</a>
+        </div>
+        <!-- Testimonials Section -->
+        <section class="testimonials py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">What Our Readers Say</h2>
+                <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial text-center">
+                                <img src="reader3.jpg" alt="Reader 1" class="rounded-circle mb-4"
+                                    style="width: 100px; height: 100px;">
+                                <p class="lead">"TechPulse is my go-to source for the latest tech news. The articles are
+                                    always insightful and well-written."</p>
+                                <h5>John Smith</h5>
+                                <p class="text-muted">Tech Enthusiast</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial text-center">
+                                <img src="reader2.jpg" alt="Reader 2" class="rounded-circle mb-4"
+                                    style="width: 100px; height: 100px;">
+                                <p class="lead">"I love the in-depth reviews on TechPulse. They help me make informed
+                                    decisions about my tech purchases."</p>
+                                <h5>Jane Doe</h5>
+                                <p class="text-muted">Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial text-center">
+                                <img src="reader1.jpg" alt="Reader 3" class="rounded-circle mb-4"
+                                    style="width: 100px; height: 100px;">
+                                <p class="lead">"The tutorials on TechPulse are excellent. They have really helped me
+                                    improve my coding skills."</p>
+                                <h5>Emily Johnson</h5>
+                                <p class="text-muted">Student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">TechPulse Copyright &copy; 2024</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
